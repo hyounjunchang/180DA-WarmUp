@@ -7,10 +7,11 @@ cap = cv2.VideoCapture(0)
 Code Modified from
 https://stackoverflow.com/questions/21104664/extract-all-bounding-boxes-using-opencv-python
 for drawing Boundary rectangles
-
 and
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html
 for ColorSpaces/Video in open CV
+
+Small decision changes suc as color bounds and boundary size minimum was added
 """
 
 in_HSV = True
